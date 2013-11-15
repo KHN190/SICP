@@ -1,0 +1,12 @@
+(define (multi a b)
+  (cond ((= b 0)
+         0)
+        ((= (remainder b 2) 0)
+         (multi (double a) (halve b)))
+        ((odd? b)
+         (+ a (multi a (- b 1))))))
+
+(define (double x)
+  (+ x x))
+(define (halve x)
+  (/ x 2))
