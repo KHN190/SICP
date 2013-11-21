@@ -13,7 +13,7 @@
 (define (report-prime elapsed-time)
   (display " *** ")
   (display elapsed-time))
-;;above is an example. they are not used in main program.
+;;above is an example. not actually used in main program.
 
 ;;find smallest divisor.
 (define (smallest-divisor n)
