@@ -1,20 +1,4 @@
 ;;use method (search-for-primes n) to find smallest prime greater than n.
-
-;;display n and runtime.
-(define (time-prime-test n)
-  (newline)
-  (display n)
-  (start-prime-test n (runtime)))
-
-(define (start-prime-test n start-time)
-  (if (prime? n)
-      (report-prime (- (runtime) start-time))))
-
-(define (report-prime elapsed-time)
-  (display " *** ")
-  (display elapsed-time))
-;;above is an example. not actually used in main program.
-
 ;;find smallest divisor.
 (define (smallest-divisor n)
   (find-divisor n 2))
