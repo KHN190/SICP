@@ -1,0 +1,13 @@
+>(f f)
+application: not a procedure;
+ expected a procedure that can be applied to arguments
+  given: 2
+  arguments...:
+   2
+>
+
+;;(lambda (g)
+       (g 2)) is a procedure give value 2 to parameter g.
+;;and when f and f are both 2 after calling,
+;;2 cannot be operator or procedure.
+;;thus error happens.
