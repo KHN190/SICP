@@ -29,3 +29,6 @@
   (< x 0))
 (define (pasitive? x)
   (> x 0))
+
+;;(half-interval-method sin 2.0 4.0)
+;;3.14111328125
